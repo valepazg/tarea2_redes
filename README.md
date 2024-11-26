@@ -20,10 +20,7 @@ El código fuente de esta tarea se encuentra en el archivo `t2.ipynb`, desarroll
 1. Se utilizaron las librerías ucimlrepo y AI Fairness 360 de Python, por lo que es necesario ejecutar en un terminal:
 
 ```bash
-pip install ucimlrepo
-pip install aif360
-pip install 'aif360[Reductions]'
-pip install 'aif360[inFairness]'
+pip install ucimlrepo tensorflow aif360 'aif360[Reductions]' 'aif360[inFairness]'
 ```
 2. Abrir el Notebook en un editor de preferencia, asegurando que el contenido de la carpeta `dataset`
 está al mismo nivel que el archivo `t2.ipynb`. Ejecutar todas las celdas.
